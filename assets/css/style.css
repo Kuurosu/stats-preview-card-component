@@ -23,15 +23,15 @@ body {
 
 #main-background {
     background-color: hsl(233, 47%, 7%);
-    height: 45rem;
+    height: 50rem;
     width: 95rem;
-    margin: 150px 90px;
+    margin: 140px 90px;
     position: relative;
 }
 
 #content-background {
     background-color: hsl(244, 38%, 16%);
-    height: 25rem;
+    height: 446px;
     width: 40rem;
     position: absolute;
     top: 20rem;
@@ -51,7 +51,7 @@ body {
     color: hsla(0, 0%, 100%, 0.75);
     width: 24rem;
     position: absolute;
-    top: 30rem;
+    top: 31rem;
     left: 22rem;
     line-height: 22px;
 }
@@ -60,7 +60,7 @@ body {
     color: hsl(0, 0%, 100%);
     width: 2rem;
     position: absolute;
-    top: 38rem;
+    top: 40rem;
     left: 22rem;
     line-height: 25px;
     letter-spacing: 1px;
@@ -70,7 +70,7 @@ body {
     color: hsl(0, 0%, 100%);
     width: 2rem;
     position: absolute;
-    top: 38rem;
+    top: 40rem;
     left: 30rem;
     line-height: 25px;
     letter-spacing: 1px;
@@ -80,7 +80,7 @@ body {
     color: hsl(0, 0%, 100%);
     width: 2rem;
     position: absolute;
-    top: 38rem;
+    top: 40rem;
     left: 38rem;
     line-height: 25px;
     letter-spacing: 1px;
@@ -97,6 +97,28 @@ body {
 
 .stat {
     font-size: larger;
+}
+
+#image {
+    height: 25rem;
+    width: 40rem;
+    position: absolute;
+    top: 20rem;
+    left: 54rem;
+}
+
+#overlay {
+    background-color: hsla(277, 75%, 45%, 0.521);
+    height: 446px;
+    width: 540px;
+    position: absolute;
+    top: 20rem;
+    left: 54rem;
+}
+
+.border {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .purple {
