@@ -40,10 +40,63 @@ body {
 }
 
 #title {
-    width: 20rem;
+    width: 22rem;
     position: absolute;
     top: 24rem;
-    left: 22rem
+    left: 22rem;
+    letter-spacing: 1px;
+}
+
+#paragraph {
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 24rem;
+    position: absolute;
+    top: 30rem;
+    left: 22rem;
+    line-height: 22px;
+}
+
+#companies {
+    color: hsl(0, 0%, 100%);
+    width: 2rem;
+    position: absolute;
+    top: 38rem;
+    left: 22rem;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+#templates {
+    color: hsl(0, 0%, 100%);
+    width: 2rem;
+    position: absolute;
+    top: 38rem;
+    left: 30rem;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+#queries {
+    color: hsl(0, 0%, 100%);
+    width: 2rem;
+    position: absolute;
+    top: 38rem;
+    left: 38rem;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.heading {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 12px;
+}
+
+.stat {
+    font-size: larger;
 }
 
 .purple {
