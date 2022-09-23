@@ -1,16 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Work+Sans:wght@400;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
 
 body {
     font-size: 15px;
+    color: hsl(0, 0%, 100%);
+}
+
+.inter-400 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.inter-700 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.lexand {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
 }
 
 #main-background {
     background-color: hsl(233, 47%, 7%);
     height: 45rem;
     width: 95rem;
-    margin: 150px 90px; 
+    margin: 150px 90px;
+    position: relative;
 }
 
+#content-background {
+    background-color: hsl(244, 38%, 16%);
+    height: 25rem;
+    width: 40rem;
+    position: absolute;
+    top: 20rem;
+    left: 18rem;
+    border-radius: 5px;
+}
+
+#title {
+    width: 20rem;
+    position: absolute;
+    top: 24rem;
+    left: 22rem
+}
+
+.purple {
+    color: hsl(277, 64%, 61%);
+}
 
 .attribution {
     font-size: 11px;
