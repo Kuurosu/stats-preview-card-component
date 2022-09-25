@@ -119,20 +119,31 @@ body {
 }
 
 #image {
-    height: 25rem;
-    width: 40rem;
+    height: 446px;
+    max-width: 20%;
     position: absolute;
-    top: 20rem;
-    left: 54rem;
+    margin: auto;
+    top: 27rem;
+    margin-left: 50%;
+    left: 0;
+    clear: left;
+}
+
+#image img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #overlay {
     background-color: hsla(277, 75%, 45%, 0.521);
     height: 446px;
-    width: 540px;
+    width: 20%;
     position: absolute;
-    top: 20rem;
-    left: 54rem;
+    top: 27rem;
+    left: 0;
+    margin-left: 50%;
 }
 
 .border {
