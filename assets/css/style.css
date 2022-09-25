@@ -121,13 +121,14 @@ body {
 
 #image {
     height: 446px;
-    max-width: 35%;
+    width: 35%;
     position: absolute;
     margin: auto;
     top: 23rem;
     margin-left: 50%;
     left: 0;
     clear: left;
+    overflow: hidden;
 }
 
 #image img {
@@ -159,6 +160,7 @@ body {
 .attribution {
     font-size: 11px;
     text-align: center;
+    color: black;
 }
 
 .attribution a {
