@@ -166,3 +166,102 @@ body {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+@media screen and (width: 375px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    #main-background {
+        margin: 0;
+        height: 100vh;
+        width: 100%;
+    }
+
+    #image {
+        top: 10vh;
+        max-height: 250px;
+        width: 90%;
+        margin: 0;
+        margin-left: 5%;
+        object-fit: fill;
+        overflow: hidden;
+    }
+
+    #image img {
+        height: 95%;
+    }
+
+    #overlay {
+        top: 10vh;
+        max-height: 250px;
+        width: 90%;
+        margin: 0;
+        margin-left: 5%;
+        object-fit: fill;
+        overflow: hidden;
+    }
+
+    #content-background {
+        width: 90%;
+        height: 55vh;
+        margin: 0;
+        margin-left: 5%;
+        left: 0;
+        top: 35vh;
+        z-index: 1;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    #title {
+        top: 0;
+        text-align: center;
+        padding-top: 2vh;
+        margin: 0;
+        margin-right: 2vh;
+        width: 90%;
+    }
+
+    #paragraph {
+        text-align: center;
+        width: 70%;
+        margin: 0;
+        margin-right: 4vh;
+        top: 17vh;
+    }
+
+    #companies {
+        text-align: center;
+        margin: 0;
+        top: 32vh;
+        width: 30%;
+        left: 13vh;
+    }
+
+    #templates {
+        text-align: center;
+        margin: 0;
+        top: 39vh;
+        width: 30%;
+        left: 13vh;
+    }
+    
+    #queries {
+        text-align: center;
+        margin: 0;
+        top: 47vh;
+        width: 30%;
+        left: 13vh;
+    }
+
+    .border {
+        border-top-left-radius: 5px;
+        border-bottom-right-radius: 0;
+    }
+
+    .attribution {
+        bottom: 0;
+    }
+}
